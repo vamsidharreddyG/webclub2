@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            
+        }
+        .form-group1{
+            margin-bottom: 15px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"] {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1877f2;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-group1 button {
+            width: 50%;
+            padding: 10px;
+            background-color: #44e56f;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background-color: #0e5d9a;
+        }
+
+        .forgot-password {
+            margin-top: 10px;
+            color: #1877f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">Facebook</div>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Email or Phone">
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <button type="submit">Log In</button>
+            </div>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+            <br>
+            <br>
+            <hr>
+            <div class="form-group1">
+                <button type="submit">Create new account </button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
